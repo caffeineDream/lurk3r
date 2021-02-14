@@ -9,10 +9,10 @@ nunjucks.configure('views', {
   express: app
 });
 
-app.use(express.static('src'))
+app.use(express.static('public'))
 
 app.get('/', function(req, res) {
-  res.render('index.html');
+  res.sendFile('public/main.html', { root: __dirname });
 });
 
 app.listen(port, () => {

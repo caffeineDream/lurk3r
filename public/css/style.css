@@ -1,0 +1,54 @@
+/* nav.navbar input[type="Search"] {
+    min-width: 50%;
+} */
+
+@media all and (max-width: 576px) {
+    .smaller {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        border-radius: 0.2rem;
+      }
+    .btn-circle-smaller {
+        width: 30px !important;
+        height: 30px !important;
+        padding: 6px 0px !important;
+        font-size: 8px !important;
+        line-height: 1.2 !important;
+    }
+
+        nav.navbar .col.col-sm-1 {
+            flex: 0.2 0 auto;
+            width: 3.5%;
+        }
+}
+
+.btn-circle {
+    width: 45px;
+    height: 45px;
+    padding: 6px 0px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.42857;
+}
+
+.card.post {
+    margin: 1.5rem 0;
+}
+
+.post .post-sub-icon {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.post .post-button-group {
+    padding: 0;
+}
+
+.post .post-button-group {
+    padding: 0;
+}
+
+[class*="btn-post-"] {
+    margin: 0.25rem 0;
+}
